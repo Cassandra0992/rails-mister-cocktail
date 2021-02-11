@@ -1,7 +1,11 @@
-<h1>Cocktails is Yours 🍸</h1>
-  <% @cocktails.each do |cocktail| %>
-  <%= link_to cocktail_path(cocktail) do %>
-  <% end %>
-<% end %>
+<div class="container">
+  <ul>
+    <h1>Cocktails are Yours 🍸</h1>
+      <% @cocktails.each do |cocktail| %>
+      <li><%= link_to cocktail.name, cocktail_path(cocktail) %></li>
+    <% end %>
+  </ul>
+  <%= link_to "Créez votre cocktail!", new_cocktail_path %>
+</div>
 
 

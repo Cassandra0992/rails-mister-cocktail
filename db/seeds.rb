@@ -30,4 +30,8 @@ end
   end
 end
 
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Margarita")
+Cocktail.create(name: "Pina Colada")
+
 puts "Finished!"
