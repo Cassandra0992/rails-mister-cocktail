@@ -10,7 +10,22 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-
+  <body class="site" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/j5uHBGEGYWU/1600x900)">
+    <div class="site-content">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <%= link_to cocktails_path, class: "navbar-brand" do %>
+      <% end %>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <%= link_to "Create a cocktail", new_cocktail_path, class: "btn btn-warning" %>
+          </li>
+        </ul>
+      </div>
+    </div>
 
   <body>
     <%= yield %>
