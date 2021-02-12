@@ -26,7 +26,6 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'cloudinary', '~> 1.16.0'
 
-
 # Gemfile
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
