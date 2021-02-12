@@ -35,6 +35,6 @@ Cocktail.create(name: "Margarita")
 Cocktail.create(name: "Pina Colada")
 Cocktail.create(name: "Bloody Mary")
 Cocktail.create(name: "Gin Tonic")
-Cocktail.create(name: "Cosmopolitan")
+Cocktail.create(name: "Cosmopolitans")
 
 puts "Finished!"
