@@ -1,5 +1,5 @@
 <div class="container" >
-    <h1>Votre cocktail 🍸</h1>
+    <h1>Your cocktail 🍸</h1>
   <div class="cocktail-name">
     <em><h4><%=@cocktail.name %></h4></em>
     <ul>
@@ -17,6 +17,7 @@
   <div class="btn-options">
     <br>
       <%=link_to "Add a dose?", new_cocktail_dose_path(@cocktail), class: "btn btn-outline-primary" %>
+    <br>
     <br>
       <%=link_to "Back to the list", cocktails_path, class: "btn btn-outline-danger" %>
   </div>
