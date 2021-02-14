@@ -1,18 +1,8 @@
-<div class="main-card-page" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://source.unsplash.com/jcLcWL8D7AQ);">
-  <div class="container">
-    <h1><em>Cocktails are Yours </em>🍸</h1>
-    <h5><em>Let's have fun! </em></h5>
-    <div class="btn-add">
-      <%= link_to "Create a cocktail", new_cocktail_path %>
-    </div>
-  </div>
-</div>
-
 <div class="container">
   <div class="cards">
     <% @cocktails.each do |cocktail| %>
       <%= link_to cocktail_path(cocktail) do %>
-        <div class="cards-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/1600x900/?cocktails)">
+        <div class="cards-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/jcLcWL8D7AQ);">
           <%= cocktail.name %>
         </div>
       <% end %>
